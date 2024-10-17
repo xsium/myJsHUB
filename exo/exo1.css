@@ -1,0 +1,16 @@
+.tastePurple{
+color: purple !important;
+}
+.tastier{
+    font-weight: bolder;
+}
+#toprint{
+    width: 400px;
+    height: 400px;
+    border: 2px white solid;
+}
+#entry{
+    width: 400px;
+    height: 400px;
+    border: 2px white solid;
+}
