@@ -20,6 +20,7 @@
     ></script>
     <title>Tyrfing's Den</title>
   </head>
+
   <body>
     <!-- header : see main.js -->
     <header id="app"></header>
@@ -27,44 +28,21 @@
 
     <!-- section : html  + js -->
     <section>
-      <h2 class="text-center m-5">
-        Liste des TP javascript pour la formation CDA:
-      </h2>
-
-      <div class="container d-flex flex-row justify-content-start">
-        <div class="container col-sm-10 col-md-4 col-lg-2 card mb-2 p-2">
-          <div class="card-header d-flex justify-content-between">
-            <div class="container">
-              <h4 class="lh-1 card-title" m-1 p-1>TP</h4>
-              <h5 class="lh-1 card-subtitle text-black-50">TP API 20/10</h5>
-            </div>
-            <img class="w-25" src="../src/logo-javascript.svg" alt="logo JS" />
-          </div>
-          <div class="card-body">
-            <p class="lh-1 card-text">TP API random User</p>
-          </div>
-          <div card-footer>
-            <div class="form-group mb-3 d-flex justify-content-end">
-              <form action="TP_API_user.html">
-                <button
-                  type="submit"
-                  name="exo0"
-                  class="btn btn-success"
-                  value="1"
-                >
-                  Run Code
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="mx-auto container" id="apiUser"></div>
     </section>
     <!-- section end -------- -->
 
+    <!-- bouton retour vers exohub-->
+    <form id="returnBTN" action="tphub.html">
+      <button type="submit" name="tphub" class="btn-secondary" value="1">
+        Retour à la liste
+      </button>
+    </form>
+    <!-- bouton retour end -->
     <!-- footer : see main.js -->
     <footer></footer>
     <!-- footer : see main.js -->
     <script type="module" src="/main.js"></script>
+    <script src="TP_API_user.js"></script>
   </body>
 </html>
