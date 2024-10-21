@@ -49,3 +49,6 @@ document.querySelector("footer").innerHTML = `
           <p>&copy; 2024 Tyrfing's personal Website</p>
         </div>
 `;
+let url = "https://y4e1hazwu7.execute-api.eu-west-3.amazonaws.com/f/simon";
+const response = await fetch(url);
+const data = await response.json();

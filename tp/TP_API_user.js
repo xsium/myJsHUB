@@ -3,7 +3,7 @@ let divApi = document.querySelector("#apiUser");
 
 let newcard = document.createElement("div");
 newcard.classList.add("card", "mx-auto", "m-3");
-newcard.style.width = "350px";
+newcard.style.width = "400px";
 newcard.style.backgroundColor = "#454545";
 newcard.style.margin = "5px";
 newcard.style.textAlign = "center";
@@ -52,7 +52,7 @@ function displayUser(toPrint) {
   newcard.id = toPrint.name.title;
   newIMG.src = toPrint.picture.medium;
   pName.innerText = `${toPrint.name.title}. ${toPrint.name.last} ${toPrint.name.first}
-  
+
   ${toPrint.email}
 
   Adress: ${toPrint.location.street.number}- ${toPrint.location.street.name}
