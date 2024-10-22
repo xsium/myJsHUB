@@ -115,6 +115,7 @@ section{
 section>div{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 h2{
@@ -132,7 +133,10 @@ a:hover {
 .card{
   background-color: #c5c5c5;
   padding: 2em;
-  min-height: 247px;
+  min-height: 260px;
+  margin: 15px;
+  min-width: 200px;
+
 }
 button {
   border-radius: 8px;
@@ -166,3 +170,22 @@ footer div{
   text-align: right;
 }
 /*------------ footer css end ------------*/
+
+#edit-user-module{
+  display: none;
+  }
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+#user-details{
+  width: 40%;
+  height: 500px;
+  border: 2px solid white;
+}
+#user-list{
+  width: 80%;
+  height: 500px;
+  border: 2px solid white;
+}

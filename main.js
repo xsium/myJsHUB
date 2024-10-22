@@ -48,4 +48,5 @@ document.querySelector("footer").innerHTML = `
         <div>
           <p>&copy; 2024 Tyrfing's personal Website</p>
         </div>
+        
 `;
