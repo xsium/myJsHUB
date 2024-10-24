@@ -1,3 +1,5 @@
+import { moduleFooter } from "./footer";
+import { getQuote } from "./scripts/zenquote";
 import logo from "./src/winkporing.png";
 import "./style.css";
 
@@ -44,9 +46,5 @@ document.querySelector("#app").innerHTML = `
       </nav>
 `;
 
-document.querySelector("footer").innerHTML = `
-        <div>
-          <p>&copy; 2024 Tyrfing's personal Website</p>
-        </div>
-        
-`;
+moduleFooter();
+getQuote();
